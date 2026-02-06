@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For My Mutki 🌷✨</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://img.icons8.com/?size=100&id=66246&format=png&color=000000">
+</head>
+<body>
+    <audio id="background-music" loop>
+    <source src="background-music.mp3" type="audio/mpeg">
+    </audio>
+    <!-- Sky and Background Effects -->
+    <div class="sky">
+        <div class="aurora"></div>
+        <div class="stars"></div>
+        <div class="clouds"></div>
+    </div>
+
+    <!-- Light Rays Container -->
+    <div class="light-rays-container"></div>
+
+    <!-- Floating Elements -->
+    <div class="floating-elements">
+        <!-- Fireflies will be generated here -->
+        <div class="fireflies-container"></div>
+        
+        <!-- Floating petals -->
+        <div class="falling-petals"></div>
+        
+        <!-- Light orbs -->
+        <div class="light-orbs"></div>
+    </div>
+
+    <!-- Love Message -->
+    <div class="love-message">
+        <h1 class="love-text">I love you My Mutki ❤️</h1>
+    </div>
+
+    <!-- Main Tulip Garden -->
+    <div class="garden-container">
+        <!-- Background layer tulips (far) -->
+        <div class="tulip-layer tulip-layer--back"></div>
+        
+        <!-- Middle layer tulips -->
+        <div class="tulip-layer tulip-layer--middle"></div>
+        
+        <!-- Foreground layer tulips (close) -->
+        <div class="tulip-layer tulip-layer--front"></div>
+        
+        <!-- Ground/Grass -->
+        <div class="ground">
+            <div class="grass-blades"></div>
+        </div>
+    </div>
+
+    <!-- Welcome Message Overlay -->
+    <div class="welcome-overlay">
+        <div class="welcome-content">
+            <h1 class="glowing-text">Happy Rose Day, My Mutki 🌷</h1>
+            <p class="subtitle">Since you can't have roses, I grew you a magical tulip garden instead...</p>
+            <button class="enter-button">Enter the Garden</button>
+        </div>
+    </div>
+
+    <!-- Love Letter Modal -->
+    <div class="love-letter-modal hidden">
+        <div class="letter-content">
+            <div class="letter-header">
+                <span class="close-letter">×</span>
+            </div>
+            <div class="letter-body">
+                <h2>To My Dearest Mutki,</h2>
+                <p>Ab gulab to apni madam ji ko de ni sakta tha and tulips aukaat se bahar the, to socha kya karu kya karu, fir khyaal aaya ki ek website banate hai. Jisko sunnghke cheeko na aap.</p>
+                
+                <p>So fir kya bana diya tulip garden, jo kabhi murjhayega nahi, A Garden JUST FOR YOU. Har ek tulip me aapke liye meri ek feeling hai. Har ek color batata hai why i love you, why i adore you and the way they catch you is how my heart goes all out jab bhi aap paas ho.</p>
+                
+                <p>This garden is eternal, just like my feelings for you. Visit it whenever you want to feel my love surrounding you.</p>
+                
+                <p class="signature">Forever yours,<br>Your Mutka 💕</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Message Tooltip (appears when clicking tulips) -->
+    <div class="tulip-message hidden">
+        <div class="message-content"></div>
+    </div>
+
+    <!-- Music Control -->
+    <div class="music-control">
+        <button class="music-toggle" title="Toggle Music">
+            <span class="music-icon">♪</span>
+        </button>
+    </div>
+
+    <!-- Letter Button -->
+    <div class="letter-button">
+        <button class="open-letter-btn" title="Read Letter">
+            <span>💌</span>
+        </button>
+    </div>
+
+    <!-- Loading Screen -->
+    <div class="loading-screen">
+        <div class="loader">
+            <div class="tulip-loader"></div>
+            <p class="loading-text">Growing tulips for you...</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
